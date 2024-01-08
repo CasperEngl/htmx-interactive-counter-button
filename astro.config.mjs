@@ -1,4 +1,4 @@
-import { defineConfig } from 'astro/config';
+import { defineConfig } from "astro/config";
 import solidJs from "@astrojs/solid-js";
 
 import vercel from "@astrojs/vercel/serverless";
@@ -7,5 +7,5 @@ import vercel from "@astrojs/vercel/serverless";
 export default defineConfig({
   integrations: [solidJs()],
   output: "server",
-  adapter: vercel()
+  adapter: vercel(),
 });
